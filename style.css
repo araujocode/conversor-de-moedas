@@ -1,0 +1,81 @@
+:root {
+    --background: #ffffff; /* Cor do fundo ajustada */
+    --primary: #2c3e50;
+    --foreground: #ecf0f1;
+    --secondary: #7f8c8d;
+    --secondary-light: #bdc3c7;
+    --accent: #3498db;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background);
+    color: var(--primary);
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    margin: 4rem 2rem;
+}
+
+header img {
+    width: auto;
+    height: 10rem;
+}
+
+main {
+    margin: 3rem;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    background-color: var(--foreground);
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 60rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+main section span {
+    display: block;
+    margin-right: 2rem;
+    color: var(--accent);
+    font-size: 4rem;
+}
+
+main section input {
+    flex: 1;
+    min-width: 0;
+    background: transparent;
+    color: var(--primary);
+    font-size: 4rem;
+    font-weight: bold;
+    border: 0;
+    outline: none;
+    text-align: right;
+    padding: 0.5rem;
+    border-bottom: 2px solid var(--secondary-light);
+}
+
+footer {
+    text-align: center;
+    font-size: 1.4rem;
+    color: var(--secondary);
+    margin: 4rem 0;
+}
